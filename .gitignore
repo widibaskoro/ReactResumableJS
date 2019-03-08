@@ -29,6 +29,5 @@ node_modules
 # Bower
 bower_components/
 .idea/
-build/
 /example/tmp/
 /yarn.lock

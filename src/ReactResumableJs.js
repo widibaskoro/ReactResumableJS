@@ -8,7 +8,7 @@
  */
 
 import React from "react";
-import Resumablejs from "resumablejs";
+import Resumablejs from "./resumablejs";
 
 export default class ReactResumableJs extends React.Component {
     constructor(props) {
