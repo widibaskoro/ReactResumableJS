@@ -10,9 +10,9 @@ var _react = require("react");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _resumablejs = require("./resumablejs");
+var _resumable = require("./resumable");
 
-var _resumablejs2 = _interopRequireDefault(_resumablejs);
+var _resumable2 = _interopRequireDefault(_resumable);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -39,7 +39,7 @@ var ReactResumableJs = function (_React$Component) {
 
         _this.componentDidMount = function () {
 
-            var ResumableField = new _resumablejs2.default({
+            var ResumableField = new _resumable2.default({
                 target: _this.props.service,
                 query: _this.props.query || {},
                 fileType: _this.props.filetypes,
